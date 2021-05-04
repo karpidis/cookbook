@@ -22,7 +22,7 @@ def biggest_numbers(n, lista):
 
 
 def smallest_numbers(n, lista):
-    return heapq.nlargest(n, lista)
+    return heapq.nsmallest(n, lista)
 
 
 if __name__ == "__main__":
